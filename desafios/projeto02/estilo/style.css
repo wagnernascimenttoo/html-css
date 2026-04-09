@@ -41,7 +41,7 @@ section{
     padding-bottom:10vh;
     padding-left:30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:;
+    
 }
 
 section.normal{
@@ -59,7 +59,10 @@ section.imagem > p{
     width: 400px;
     background-color: rgb(228, 189, 130);
 
+}
 
+section#img01{
+    background-image: url();
 }
 
 footer{
