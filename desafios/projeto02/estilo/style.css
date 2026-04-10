@@ -50,19 +50,40 @@ section.normal{
 }
 
 section.imagem{
-    background-color: wheat;
+    background-color: black;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(48, 44, 44);
+    background-attachment: fixed;
+
 
 }
 
 section.imagem > p{
     width: 400px;
-    background-color: rgb(228, 189, 130);
+    background-color:rgba(0, 0, 0, 0.32);
+    text-shadow: 1px 1px 0px black;
 
 }
 
 section#img01{
-    background-image: url();
+    background-image: url(../imagem/bboy-born01.png);
+    background-position:left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url(../imagem/bboy-born03.png);
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#img03{
+    background-image: url(../imagem/bboy-born02.png);
+    background-position:left center;
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
 footer{
